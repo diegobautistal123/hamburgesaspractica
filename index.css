@@ -1,0 +1,635 @@
+*{
+    font-family: cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+.bgnav{
+    padding: 2em;
+    padding-left: 1em;
+    margin-left: 0;
+    padding-top:1em ;
+    width: 100%;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding-bottom: 1em;
+}
+.logo{
+    height: 4em;
+}
+.button-nav{
+    display: inline-block;
+    width:5em;
+}
+button i {
+    font-size: 0.8em;
+}
+.btn-1{
+    font-size: 1em;
+    color:grey;
+    width:auto;
+    height: auto;
+
+}
+.btn-1:hover{
+    color: grey;
+    background-color: honeydew;
+}
+
+.btn-home{
+    color:white;
+    background-color: #d60b0b;
+}
+.btn-home:hover{
+    color:white;
+    background-color: #d60b0b;
+}
+.btn-danger1{
+    color: white;
+    margin-left: .5em;
+}
+.btn-danger1:hover {
+    color: white;
+    background-color: #d60b0b;
+}
+.icon-redes1{
+    padding-top:.2em ;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 2em;
+    margin-left: 1em;
+    transition: 1s;
+}
+.icon-red-size1{
+    color: black;
+    height: 2em;
+    width: 2em;
+    text-decoration: none !important;
+}
+.icon-redes2{
+    padding-top:.2em ;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 2em;
+    margin-left: 1em;
+    transition: 1s;
+}
+.icon-red-size2{
+    color: black;
+    height: 2em;
+    width: 2em;
+}
+.icon-redes2:hover{
+    background-color: #337ab7;
+}
+.icon-red-size2:hover{
+    color: white;
+}
+.icon-redes3{
+    padding-top:.2em ;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 2em;
+    margin-left: 1em;
+    transition: 1s;
+}
+.icon-red-size3{
+    color: black;
+    height: 2em;
+    width: 2em;
+}
+
+.icon-redes3:hover{
+    background-color: #8d4828;
+}
+.icon-red-size3:hover{
+    color: white;
+}
+
+.icon-redes1:hover{
+    background-color: rgb(32, 32, 161);
+}
+.icon-red-size1:hover{
+    color: white;
+}
+
+.lisb{
+    display: none;
+}
+.nav-sm{
+    height: 2em;
+    width: 2em 
+}
+.bg-navs {
+    padding-top:1em ;
+    width: 100%;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding-bottom: 1em;
+}
+.menu-nav{
+    margin-top: 1em;
+    position: relative;
+    display: none  ;
+    background-color: white;
+    height: 10.5em;
+    width: auto;
+    margin-left:10%;
+    margin-right: 10%;
+    padding-bottom: 1em;
+    border-radius: .5em;
+    
+}
+#menu-desp{
+    display: none;
+}
+.ul-nav{
+    list-style: none;
+    padding: 1em;
+}
+.txt-li, .txt-li1{
+    padding: .2em;
+    margin-bottom: .1em;
+    border-radius:.5em;
+    box-shadow:.5px 0px 0px 0 rgba(0, 0, 0, 0.329);
+}
+.txt-li1{
+    background-color:#d60b0b;
+    color: white;
+    padding-left:.5em ;
+    border-radius: .5em;
+}
+.ftxt{
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding-left:.5em ;
+}
+.ftxt:hover{
+    color: black;
+    text-decoration: none;
+}
+.txt-li1:hover{
+    color: white;
+    text-decoration: none;
+}
+/* HASTA AQUI ES TOLO LO DEL HEADER ------------------------------------------------*/
+.img1{
+    margin-top: -7em;
+    position:relative;
+    width: 100%;
+    height:40em;
+    background-image: url(images/burger1.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.fontitle1{
+    font-family: 'Ranchers', cursive;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 4em;
+    text-shadow: .1em .1em .1em black;
+
+}
+.fontitle2{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 4em;
+    text-shadow: .1em .1em .1em black;
+}
+.position-title-container{
+    width: 100%;
+    height: auto;
+}
+.position-title{
+    text-align: center;
+    position: relative;
+    padding: 25%;
+    padding-top:20% ;
+    padding-bottom: 0%;
+}
+/*hasta aqui la imagen con el titulo ya esta y es responsive*/
+.ubicacion-style{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    padding-right:5em ;
+}
+.title-ubi{
+    word-wrap: break-word;
+    width: 25%;
+    display: inline-block;
+    color: white;    
+    font-size: 2em;
+    font-family: 'Rajdhani', sans-serif;
+    margin-right: 1em;
+}
+.font-suc{
+    display: inline-block;
+    font-family: 'Rock Salt', cursive;
+    color: #d60b0b;
+}
+.btn-ubi{
+    display: inline-block;
+    width: auto;
+    background-color: #b90909; 
+}/*hasta aqui el apartado de ubicacion esta listo y es responsive*/
+.probar{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 3em;
+}
+p a{
+    color: #b60808 ;
+    font-size: 1.2em;
+}
+p a:hover{
+    color: #d60b0b;
+}
+.probar p{
+    font-size: 1.5em;
+    font-family: 'Poiret One', cursive;
+}/*hasta aqui la tercera seccion esta completa y es responsive*/
+.sec-img-burger{
+    display: inline-block;
+    text-align: center;
+    background:linear-gradient(to top, black 80%,black 50%,#000000 50%,white 50%,white 100%);
+    width: 100%;
+    height:auto;
+    padding-top: 0;
+    color: white;
+}
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+.img-resp-cont{
+    width: 100%;
+}
+.container p{
+    margin-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}/*hasta aqui la cuarta seccion esta completa*/
+.probar1{    
+    display:block;
+    color: white;
+    background-color: #d60b0b;
+    width: 100%;
+    height: auto;
+    padding: 3em;
+}
+.probar1  h3{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.probar1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.probar1 button{
+    float: right;
+}/*hasta aqui la quinta seccion esta completa y es responsive*/
+.title-sec-6{
+    width: 100%;
+    display: block;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+.title-sec-6 h2{
+    font-family: Georgia;
+    border-bottom:  black 1px solid;
+}
+.images-galery{
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.images-galery img{
+    display: inline-block;
+    object-fit:cover ;
+    object-position: center;
+    width: 13em;
+    height: 9em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    transition: .5s;
+}
+.images-galery img:hover{
+    margin-right: 0;
+    opacity: .9;
+    width: 14em;
+    height: 9em;
+}
+.love-img-container {
+    width: 100%;
+    height: 95%;
+    
+}
+.love-img-container img{
+    width: 100%;
+    height: 100%;
+}
+.galery-ven{
+    display: block;
+    word-wrap: break-word;
+    padding:5% ;
+}
+.galery-ven h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}/*hasta aqui la seccion de galeria esta completea y es responsive*/
+
+.ultima-seccion{
+    word-wrap: break-word;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    background-color: rgb(202, 202, 202);
+}
+.ultima-seccion h2{
+    word-wrap: break-word;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: .5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.ultima-seccion h6{
+    word-wrap: break-word;
+    font-size: .7em;
+    color: #b90909;
+    font-family:'Rock Salt', cursive; 
+    margin-right: 4em;
+}
+.ultima-seccion button{
+    display: inline-block;
+}/*--------------------------*/
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    word-wrap: break-word;
+    padding:3em ;
+}
+.footer h2,a{
+    display: block;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer h4, h5{
+    display:block;
+    color: rgb(131, 131, 131);
+}
+.liststyle{
+    list-style: none;
+}
+.email:hover{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+.position-redes{
+    display: inline-block;
+}
+.salto{
+    word-wrap: break-word;
+    display:block;
+    
+}
+.w-100{
+    width: 50px;
+    height: 1px;
+}
+.subir-iconos li {
+    margin-top: -10%;
+}
+.footpage img{
+    display: inline-block;
+    width: 6em;
+    height: 3em;
+
+}
+.footpage p{
+    display: inline-block;
+    word-wrap: break-word;
+}
+.w-100-1{
+    height: 3em;
+}
+.liststyle1 li{
+    display: inline-block;
+    padding:1em ;
+}
+.liststyle1{
+    margin-left: 16%;
+}
+.liststyle1 li a:hover{
+    text-decoration: none;
+    color: rgb(173, 173, 170);
+}
+
+
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1050px) {
+    .position-title{
+        padding: 0%;
+        padding-top: 30%;
+    }
+    .fontitle1, .fontitle2{
+        font-size: 3.5em;
+    }/*aqui ya quedo la primera parte y es responsive*/
+    .font-suc{
+        margin-left: 1.5em;
+    }
+}
+@media (max-width:770px) {
+    section{
+        word-wrap:break-word;
+    }
+    .position-title{
+        width: 100%;
+        word-wrap: break-word;
+        padding-top: 40%;
+    }
+    .md{
+        display: none;
+    }
+    .lisb{
+        display: block;
+        color: white;
+        background-color: #d60b0b ;
+        width: 2em;
+        height: 1.7em;
+        margin-left: 1em;
+        text-align:center;
+    }
+    .lisb:hover{
+        background-color: #a50b0b ;
+        transition: .2s;
+    }
+    #menu-desp:checked ~ .menu-nav{
+        display: block; 
+    }
+    .img1{
+        background-position:center;
+    }
+    /*hasta aqui es responsive el header*/
+    .fontitle1, .fontitle2{
+        font-size: 3em;
+    }
+    /*aqui la primera parte esta completa y responsive*/
+    .ubicacion-style{
+        word-wrap: break-word;
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .font-suc{
+        margin-left: 0;
+        padding: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .title-ubi{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .btn-ubi{
+        display: block;
+        width: 100%;
+        align-items: center;
+    }/*aqui la segundaseccion esta terminada*/
+    .container p{
+        font-size: .7em;
+    }
+    .probar1{
+        padding: 0;
+        word-wrap:break-word ;
+        display: block;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .probar1 button{
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0;
+    }
+    .probar1 h3, p{
+        display: block;
+    }
+    /*---------------------------------------------*/
+    .ultima-seccion h6, h2{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 1em;
+    }
+    .ultima-seccion {
+        align-items: center;
+        text-align: center;
+    }
+    .ultima-seccion button {
+        margin-bottom: 1em;
+        float: none;
+        width: 100%;
+    }
+    .subir-iconos{
+            margin: 1em;
+    }
+    .salto{
+        margin: 1em;
+    }
+}
+
+@media (max-width:580px) {
+    
+    .ssm{
+        display: none;
+        text-align: end !important;
+    }
+    .lisb{
+        margin-top: -3em;
+        margin-left: 90%;
+        margin-right: 10%;
+        position: absolute;
+    }
+    #menu-desp:checked ~ .menu-nav{
+        display: block;  
+    }
+    /* hasta aqui el header es responsive*/
+    .img1{
+        width: 100%;
+        height: auto;
+    }
+    .fontitle1, .fontitle2{
+        font-size: 2.5em;
+    }/*hasta aqui la primera parte ya es responsive*/
+    .font-suc{
+        margin-left: 0;
+        margin-bottom: 1em;
+        font-size: 1em;
+    }/*hasta aqui la segunda seccion esta completa y es responsive*/
+    p a{
+        font-size: .5em;
+    }/*hasta aqui la 4rta seccion etsa complete y es responsive*/
+    .images-galery img{
+        margin-right: 0;
+        width: 60%;
+        height: 60%;
+    }
+    /*--------------------------*/
+    
+    
+}
+
